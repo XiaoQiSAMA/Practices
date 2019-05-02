@@ -1,5 +1,5 @@
 import xlrd
-from matplotlib.pyplot import *
+import matplotlib.pyplot as plt
 
 
 
@@ -65,16 +65,17 @@ y = data_weiboLevel_y
 
 #create new figure
 
-figure("虚假新闻")
+plt.figure("虚假新闻")
 
- 
-
+plt.xlabel('weibo_level')
+plt.ylabel('population')
+plt.title('weibo_level_population')
 #线
 
 
-plot(x,y)
+plt.plot(x, y)
 
  
 
 
-show()
+plt.show()
