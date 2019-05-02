@@ -1,6 +1,6 @@
 import xlrd
 from matplotlib.pyplot import *
-from matplotlib.pyplot import *
+
 
 
 file = 'news.xls'
@@ -52,7 +52,7 @@ def num_data(list1, list2, list3):              #list1:int型列表总数据
 
 num_data(new_data_weiboLevel_x, data_weiboLevel_y, data_x)
 
-data_x.append("不显示")
+data_x.append("B")
 data_weiboLevel_y.append(count)
 #print(new_data_weiboLevel_x, data_weiboLevel_y, data_x)
 
