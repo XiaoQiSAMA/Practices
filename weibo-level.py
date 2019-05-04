@@ -21,7 +21,7 @@ for i in data_weiboLevel_x[:]:      # 计算并移除"不显示"的字符串
         count += 1
         data_weiboLevel_x.remove(i)
     else:
-        data_weiboLevel_x += i
+        pass
 
 
 data_weiboLevel_y = []              #y轴数据
